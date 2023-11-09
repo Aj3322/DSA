@@ -37,4 +37,46 @@ Output all pairs found whose sum is 25
 
 These algorithms will iterate through the array to count the even and odd elements, and find all pairs of elements that sum up to 25, respectively.
 
-Please note that these algorithms provide a basic structure to accomplish the tasks. They can be optimized further based on the specific requirements or the programming language in which you are implementing them.
+The algebraic expression \( E = (5a+b) \times (3c-d)^3 \) can be represented as a tree structure. To draw the expression tree corresponding to \( E \), let's break it down into its constituent operators and operands.
+
+### Expression Tree for \( E = (5a+b) \times (3c-d)^3 \)
+
+Breaking down the expression into sub-expressions:
+
+- Expression 1: \( 5a+b \)
+- Expression 2: \( (3c-d)^3 \)
+- Main Expression: Multiply the results of Expression 1 and Expression 2.
+
+#### Expression 1 Tree (5a+b):
+
+```plaintext
+         [*]
+        /   \
+       [+]   [5]
+      /   \
+     [a]  [b]
+```
+
+#### Expression 2 Tree ((3c-d)^3):
+
+```plaintext
+        [^]
+       /   \
+      [-]   [3]
+     /   \
+    [c]  [d]
+```
+
+#### Main Expression Tree (Multiply the results of Expression 1 and Expression 2):
+
+```plaintext
+          [*]
+         /   \
+        [+]   [^]
+       /   \   / \
+      [a] [b] [-] [3]
+              /   \
+             [c]  [d]
+```
+
+This tree structure represents the hierarchy of operations for the algebraic expression \( E \). It's important to note that in an actual tree structure, each node represents an operation or an operand, and the leaf nodes represent the variables or constants involved in the expression.
