@@ -1,4 +1,6 @@
 # Question
+
+
  (a) An array 'A' contains 25 positive integers. Write an algorithm which finds the number EVNUM of elements of 'A' which are even and the number ODNUM of elements of 'A' which are odd.
 
  (b) An array 'A' contains 25 positive integers. Write an algorithm which finds all pairs of elements whose sum is 25
