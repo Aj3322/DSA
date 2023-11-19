@@ -81,4 +81,4 @@ Breaking down the expression into sub-expressions:
              [c]  [d]
 ```
 
-This tree structure represents the hierarchy of operations for the algebraic expression \( E \). It's important to note that in an actual tree structure, each node represents an operation or an operand, and the leaf nodes represent the variables or constants involved in the expression.
+
