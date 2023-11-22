@@ -69,16 +69,5 @@ Breaking down the expression into sub-expressions:
     [c]  [d]
 ```
 
-#### Main Expression Tree (Multiply the results of Expression 1 and Expression 2):
-
-```plaintext
-          [*]
-         /   \
-        [+]   [^]
-       /   \   / \
-      [a] [b] [-] [3]
-              /   \
-             [c]  [d]
-```
 
 
